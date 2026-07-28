@@ -8,6 +8,7 @@ public class BFS{
         graph.put('d',Arrays.asList('b','c','e','f'));
         graph.put('e',Arrays.asList('b','d','f'));
         graph.put('f',Arrays.asList('d','e'));
-        System.out.print(graph.get('d'));
+        System.out.println(graph.size());
+        
     }
 }
